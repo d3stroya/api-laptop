@@ -11,7 +11,6 @@
 
 package com.d3stroya.ejercicio4;
 
-import com.d3stroya.ejercicio4.controller.HelloController;
 import com.d3stroya.ejercicio4.entity.Laptop;
 import com.d3stroya.ejercicio4.repository.LaptopRepository;
 import org.springframework.boot.SpringApplication;
@@ -19,11 +18,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class Ejercicio4Application {
+public class Ejercicio11Application {
 
 	public static void main(String[] args) {
 
-		ApplicationContext context = SpringApplication.run(Ejercicio4Application.class, args);
+		ApplicationContext context = SpringApplication.run(Ejercicio11Application.class, args);
 		LaptopRepository laptopRepository = context.getBean(LaptopRepository.class);
 
 		// Crear ordenadores
